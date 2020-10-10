@@ -1,0 +1,14 @@
+$hover-color: rgb(206,28,44);
+
+.button {
+    width: 100%;
+    border-radius: 20px;
+    background: none;
+    border: 1px solid $hover-color;
+    color: #000000;
+}
+
+.button:hover {
+    background-color: $hover-color;
+    color: #ffffff;
+}

@@ -1,0 +1,15 @@
+.header {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header__text {
+        display: flex;
+        flex-direction: column;
+
+        .header__item {
+            text-align: end;
+        }
+    }
+}

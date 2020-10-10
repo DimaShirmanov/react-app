@@ -1,0 +1,15 @@
+.balls {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .ball__item {
+        cursor: pointer;
+        height: 56px;
+        width: 56px;
+    }
+
+    .ball__item:not(:first-child) {
+        margin-top: 50px;
+    }
+}
